@@ -16,7 +16,7 @@ Thus we only need to solve a system of equations to define the value of each coe
 
 However, we will still need two more equations to be able to solve all equations deterministically. These two equations define the type of the Spline.
 
-This project implemented the Natural Splines and its two extra conditions are that the second derivative of the first polynomial and the last polynomial is equal to zero.
+This project implemented the Natural Splines and its two extra conditions are that the second derivative of the first polynomial and the last polynomial is equal to zero in the extremes points (left-most point and right-most point among all points).
 
 Visually, it means the function is very similar to a line near the first and the last points.
 
